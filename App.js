@@ -1,21 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Cabecalho from './.expo-shared/componentes/Cabecalho';
+import Corpo from './.expo-shared/componentes/Corpo';
+import Disciplina from './.expo-shared/componentes/Disciplina';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <View>
+      <Cabecalho nome="Vito" curso="Design"></Cabecalho>
+      <Corpo></Corpo>
+      <Disciplina disciplina="Projeto"></Disciplina>
+      <Disciplina disciplina="Mobile"></Disciplina>
+
+      </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
