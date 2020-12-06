@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
+import styles from "./style.js"
 
 export class Disciplina extends Component {
     constructor(props){
@@ -8,7 +9,7 @@ export class Disciplina extends Component {
     render() {
         return (
             <View>
-                <Text>
+                <Text style={styles.discTitle}>
                     {this.props.disciplina}                
                 </Text>
             </View>

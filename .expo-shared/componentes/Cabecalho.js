@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
+import styles from "./style.js"
+
 
 export class Cabecalho extends Component {
     constructor(props){
@@ -9,10 +11,10 @@ export class Cabecalho extends Component {
     render() {
         return (
             <View>
-                <Text>
+                <Text style={styles.title}>
                     {this.props.nome}
                 </Text>
-                <Text>
+                <Text style={styles.subTitle}>
                     {this.props.curso}
                 </Text>
             </View>
