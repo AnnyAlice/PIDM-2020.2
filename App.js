@@ -1,15 +1,16 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import Home from './Trabalho02/Home';
-import Navbar from './Trabalho02/Navbar';
+import IMCapp from './Trabalho03/IMCapp';
+
 
 
 export default function App() {
   return(
     
     <View>
-      <Navbar></Navbar>
-      <Home></Home>
+      <IMCapp>
+      
+      </IMCapp>
     </View>
   ) 
 };
