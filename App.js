@@ -1,17 +1,17 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import IMCapp from './Trabalho03/IMCapp';
+import { SafeAreaView, StatusBar, Text, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import RotaGeral from './Trabalho04/componentes/Rotas';
+import RotaPrincipal from './Trabalho04/componentes/Rotas';
+
 
 
 
 export default function App() {
   return(
-    
-    <View>
-      <IMCapp>
-      
-      </IMCapp>
-    </View>
+    <SafeAreaProvider>
+      <RotaGeral></RotaGeral>
+    </SafeAreaProvider>
   ) 
 };
 
