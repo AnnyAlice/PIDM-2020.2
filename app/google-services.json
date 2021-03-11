@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "891849713485",
+    "project_id": "pidm2020",
+    "storage_bucket": "pidm2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891849713485:android:06e3185027d3aa5bda3904",
+        "android_client_info": {
+          "package_name": "com.firebase_atvd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891849713485-9qd8go9k0npphrv7spl3gupgjliph5dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3GiFeTiwwfh2FdQXEcpOKL5_EkEIW06s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891849713485-9qd8go9k0npphrv7spl3gupgjliph5dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
